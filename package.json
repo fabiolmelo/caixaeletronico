@@ -1,0 +1,16 @@
+{
+  "name": "caixaeletronico",
+  "version": "1.0.0",
+  "description": "Simulador de entrega de notas em um caixa eletronico",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./server.test | tap-spec"
+  },
+  "author": "Fabio Luiz de Melo",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.5.3"
+  }
+}
